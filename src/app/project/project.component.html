@@ -1,0 +1,150 @@
+<div class="container-fluid">
+  <div class="body">
+    <div *ngIf="card">
+    <table>
+      <tr>
+        <td>
+          <mat-card class="card">
+            <mat-card-header
+              style="
+                font-size: xx-large;
+                color: rgb(42, 42, 177);
+                margin: 1vw 1vw 1vw 1vw;
+              "
+              >Sorting Visualization</mat-card-header
+            >
+            <img
+              mat-card-image
+              src="/assets/sort.png"
+              style="width: 90%; height: 60%; margin: 1vw 1vw 1vw 1vw"
+            />
+            <mat-card-content>
+              <ul>
+                <li>
+                  Implemented a visual presentation of Sorting algorithms.
+                </li>
+                <li>Used advance DOM manipulation using Javascript only.</li>
+                <li>
+                  Used Promises and asynchronous functions to create a better
+                  visual effect.
+                </li>
+                <li>
+                  Link to the live Project:
+                  <a href="https://arnabi62.github.io/Sort_Visualize/"
+                    >https://arnabi62.github.io/Sort𝑉 𝑖𝑠𝑢𝑎𝑙𝑖𝑧𝑒/</a
+                  >
+                </li>
+              </ul>
+            </mat-card-content>
+            <mat-card-actions class="Button">
+              <button type="button" class="btn btn-primary" (click)="clicked1()">VIEW</button>
+            </mat-card-actions>
+          </mat-card>
+        </td>
+        <td>
+          <mat-card class="card">
+            <mat-card-header
+              style="
+                font-size: xx-large;
+                color: rgb(42, 42, 177);
+                margin: 1vw 1vw 1vw 1vw;
+              "
+              >Real-Time Chatting Application</mat-card-header
+            >
+            <img
+              mat-card-image
+              src="/assets/chat.png"
+              style="width: 90%; height: 60%; margin: 1vw 1vw 1vw 1vw"
+            />
+            <mat-card-content>
+              <ul>
+                <li>Implemented real-time chatting application.</li>
+                <li>Used node.js for backend and socket.io for websocket.</li>
+                <li>
+                  Link to the Project:
+                  <a
+                    href="https://github.com/arnabi62/Real_time_chat_Application"
+                    >https://github.com/arnabi62/Real_time_chat_Application</a
+                  >
+                </li>
+              </ul>
+            </mat-card-content>
+            <mat-card-actions class="Button">
+              <button type="button" class="btn btn-primary" (click)="clicked2()">VIEW</button>
+            </mat-card-actions>
+          </mat-card>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-card class="card">
+            <mat-card-header
+              style="
+                font-size: xx-large;
+                color: rgb(42, 42, 177);
+                margin: 1vw 1vw 1vw 1vw;
+              "
+              >Note Saving Application</mat-card-header
+            >
+            <img
+              mat-card-image
+              src="/assets/note.png"
+              style="width: 80%; height: 50%; margin: 1vw 1vw 1vw 1vw; border: 1vh; border-color: black;"
+            />
+            <mat-card-content>
+              <ul>
+                <li>
+                  Created a monolithic, modern, scalable and high-speed Web
+                  Applications with Angular , Node.js , Express and MongoDB.
+                </li>
+                <li>
+                  Implemented reusable Components in Angular which interacts
+                  using RoutingModule among themselves and boosted the
+                  performance using lazy loading.
+                </li>
+                <li>
+                  Reactive User Experience achieved with the Tools provided by
+                  Angular and connected it to Back-end using Angular’s
+                  HttpClient service.
+                </li>
+                <li>
+                  Application is secured by implementing Users Authentication as
+                  well as Authorization,added advanced features like image
+                  upload, mime type validator,seaching and pagination.
+                </li>
+                <li>
+                  Link to this Project:
+                  <a href="https://github.com/arnabi62/Note-savingapp-FullStack"
+                    >https://github.com/arnabi62/Note-savingapp-FullStack</a
+                  >
+                </li>
+              </ul>
+            </mat-card-content>
+            <mat-card-actions class="Button">
+              <button type="button" class="btn btn-primary" (click)="clicked3()">VIEW</button>
+            </mat-card-actions>
+          </mat-card>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div *ngIf="v1">
+    <button type="button" class="btn btn-warning" (click)="getBack()" style="margin: 1vw 1vw 1vw 1vw;">Back</button>
+    <video controls autoplay>
+      <source src="/assets/sort_visualize.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div *ngIf="v2">
+    <button type="button" class="btn btn-warning" (click)="getBack()" style="margin: 1vw 1vw 1vw 1vw;">Back</button>
+    <video controls autoplay>
+      <source src="/assets/real_time_chat_Application.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div *ngIf="v3">
+    <button type="button" class="btn btn-warning" (click)="getBack()" style="margin: 1vw 1vw 1vw 1vw;">Back</button>
+    <video controls autoplay>
+      <source src="/assets/note_saving_app.mp4" type="video/mp4">
+    </video>
+  </div>
+  </div>
+</div>

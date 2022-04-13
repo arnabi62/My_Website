@@ -1,0 +1,42 @@
+.card
+{
+  width: 70rem;
+  height: 70rem;
+  margin: 0vw 1vw 1vw 1vw;
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+.Button
+{
+  justify-content: center;
+  display: flex;
+  padding: 1vw 1vw 1vw 1vw;
+  color: aliceblue;
+}
+
+.body
+{
+  margin: 0vw 1vw 1vw 1vw;
+  padding: 0vw 1vw 1vw 1vw;
+}
+
+table, tr, td
+{
+  margin: 0vw 1vw 1vw 1vw;
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+ul, li{
+  font-size: (2vw+2vh);
+}
+
+button
+{
+  border-radius: 10%;
+}
+
+video{
+  width: 50rem;
+  height: 50rem;
+  margin: 1vw 1vw 1vw 1vw;
+}

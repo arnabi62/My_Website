@@ -1,0 +1,15 @@
+.cont
+{
+  background-color: rgb(58, 58, 204);
+  padding: 50px 10px 50px 50px;
+  margin: -16px -36px 70px -16px;
+  width: 100%;
+  height:20%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 1vw 1vw 1vw 1vw;
+  font-size:xx-large;
+}
