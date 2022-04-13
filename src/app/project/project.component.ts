@@ -28,7 +28,8 @@ v3=false;
   clicked3()
   {
     this.card = false;
-    this.v3=true;
+    this.v3
+    =true;
   }
 getBack()
 {
