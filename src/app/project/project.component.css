@@ -3,7 +3,7 @@
   width: 70rem;
   height: 70rem;
   margin: 0vw 1vw 1vw 1vw;
-  padding: 1vw 1vw 1vw 1vw;
+  padding: 1vw 1vw 1vw 0vw;
 }
 
 .Button
@@ -16,13 +16,13 @@
 
 .body
 {
-  margin: 0vw 1vw 1vw 1vw;
+  margin: 0vw 1vw 1vw 0vw;
   padding: 0vw 1vw 1vw 1vw;
 }
 
 table, tr, td
 {
-  margin: 0vw 1vw 1vw 1vw;
+  margin: 0vw 1vw 1vw 0vw;
   padding: 1vw 1vw 1vw 1vw;
 }
 

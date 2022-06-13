@@ -9,6 +9,10 @@ import { ProjectComponent } from './project/project.component';
 //import {MatButton} from '@angular/material/button'
 import {MatCardModule} from '@angular/material/card';
 
+import { IntroComponent } from './intro/intro.component';
+import { MiddleComponent } from './middle/middle.component';
+import { EndCardsComponent } from './end-cards/end-cards.component';
+
 
 
 @NgModule({
@@ -16,7 +20,11 @@ import {MatCardModule} from '@angular/material/card';
     AppComponent,
     NavabarComponent,
     HomeComponent,
-    ProjectComponent
+    ProjectComponent,
+
+    IntroComponent,
+    MiddleComponent,
+    EndCardsComponent
 
   ],
   imports: [

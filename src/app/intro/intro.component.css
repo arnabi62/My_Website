@@ -1,0 +1,88 @@
+.intro
+{
+  padding: 30px 10px 30px 10px;
+  margin: 10px 10px 10px 10px;
+  width: 100%;
+  display: grid;
+}
+
+p.para1
+{
+  color: Orange;
+  margin: auto;
+  padding: auto;
+  font-weight: 900;
+  font-size: 56px;
+}
+
+p.para2
+{
+  color: black;
+  margin-left: 1vw;
+  padding: auto;
+  font-weight: 800;
+  font-size: 52px;
+}
+
+.para3
+{
+  color: rgb(32, 30, 26);
+
+  padding: auto;
+  font-style: italic;
+  font-size: 20px;
+
+}
+img
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+.col1
+ {
+  grid-column: 1;
+  position: relative;
+  margin-left: 2vw;
+ }
+
+ .col2
+ {
+
+  grid-column: 3;
+  position: relative;
+ }
+
+ .col3{
+   grid-column: 4;
+   position: relative;
+
+ }
+ .note
+ {
+  text-decoration:none;
+  color:whitesmoke;
+  display:block;
+  height:150px;
+  width: 150px;
+  padding:1em;
+  font-size: 24px;
+
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  /* Safari+Chrome */
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  /* Opera */
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+
+  background:#f26b6b;
+
+ }
